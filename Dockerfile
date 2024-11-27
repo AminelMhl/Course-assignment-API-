@@ -1,5 +1,5 @@
 FROM python:3.12.2
-EXPOSE 5005
+EXPOSE 5000
 WORKDIR /app
 RUN pip install flask
 COPY . .
